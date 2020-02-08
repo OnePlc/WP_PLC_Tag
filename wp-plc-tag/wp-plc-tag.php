@@ -26,7 +26,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'WPPLC_TAG_VERSION', '1.0.0' );
 define( 'WPPLC_TAG_MAIN_FILE', __FILE__ );
 define( 'WPPLC_TAG_MAIN_DIR', __DIR__ );
-define( 'WPPLC_TAG_PUB_DIR','/wp-content/plugins/wp-plc-tag');
 
 /**
  * Handles plugin activation.

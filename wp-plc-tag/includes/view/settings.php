@@ -5,16 +5,16 @@
         <!-- Header START -->
         <div class="plc-settings-header">
             <div class="plc-settings-header-main">
-                <div style="width:33%; text-align: left;">
+                <div class="plc-settings-header-col header-col-first">
                     <div class="plc-settings-header-main-title">
-                        WP PLC Tag <small>Version <?=WPPLC_TAG_VERSION?></small>
+                        WP PLC Tag <small>Version <?=(defined('WPPLC_TAG_VERSION')) ? WPPLC_TAG_VERSION : '(unknown)'?></small>
                     </div>
                 </div>
-                <div style="width:33%; text-align: center;">
-                    <img src="<?=WPPLC_TAG_PUB_DIR?>/assets/img/icon.png" style="max-height:42px;"/>
+                <div class="plc-settings-header-col header-col-second">
+                    <img src="<?=plugins_url('assets/img/icon.png', WPPLC_TAG_MAIN_FILE)?>" />
                 </div>
-                <div style="width:33%; text-align: right;">
-                    Need help?
+                <div class="plc-settings-header-col header-col-third">
+                    <?=__('Need help?','wp-plc-tag')?>
                 </div>
             </div>
         </div>

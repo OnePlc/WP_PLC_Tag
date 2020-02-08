@@ -6,7 +6,7 @@
  * @package   OnePlace\Tag\Modules
  * @copyright 2020 Verein onePlace
  * @license   https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html GNU General Public License, version 2
- * @link      https://1plc.ch/wordpress-plugins/article
+ * @link      https://1plc.ch/wordpress-plugins/tag
  */
 
 namespace OnePlace\Tag\Modules;
