@@ -46,6 +46,7 @@
 
             <!-- Content START -->
             <div class="plc-admin-page-container" style="width:100%; display: inline-block; float: left;">
+                <?php wp_nonce_field( 'oneplace-settings-update' ); ?>
                 <?php
                 // Include Settings Pages
                 require_once __DIR__.'/settings/general.php';

@@ -11,7 +11,7 @@
  * Plugin Name: WP PLC Tag
  * Plugin URI:  https://1plc.ch/wordpress-plugins/tag
  * Description: onePlace Tags for Wordpress. Widgets and Shortcodes for onePlace Tags
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Verein onePlace
  * Author URI:  https://1plc.ch
  * License:     GNU General Public License, version 2
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Define Version and directories for further use in plugin
-define( 'WPPLC_TAG_VERSION', '1.0.0' );
+define( 'WPPLC_TAG_VERSION', '1.0.1' );
 define( 'WPPLC_TAG_MAIN_FILE', __FILE__ );
 define( 'WPPLC_TAG_MAIN_DIR', __DIR__ );
 

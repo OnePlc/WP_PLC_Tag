@@ -9,7 +9,7 @@ Requires PHP: 5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple plugin to work with onePlace Article based Modules
+A simple plugin to work with onePlace Tag Module.
 
 == Description ==
 
@@ -46,10 +46,16 @@ Just install and activate. no setup or configuration yet.
 
 == Changelog ==
 
+= 1.0.1 =
+* Update to latest onePlace Connect
+
 = 1.0.0 =
 * first public stable
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* admin Forms now have nonce's
 
 = 1.0.0 =
 enjoy
